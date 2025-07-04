@@ -1,0 +1,21 @@
+name: task_manager
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.8.1
+
+# Add regular dependencies here.
+dependencies:
+  intl: ^0.20.2
+  url_launcher: ^6.3.0
+  sqlite3: ^2.4.0
+  console: ^4.1.0
+  args: ^2.5.0
+  orm: ^5.3.4
+  table: any
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.24.0

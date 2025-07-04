@@ -1,0 +1,19 @@
+generator client {
+  provider = "dart run orm"
+  output   = "../lib/prisma_client.dart"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Task {
+  id           Int      @id @default(autoincrement())
+  title        String
+  description  String
+  priority     String   // High, Medium, Low
+  dueDate      DateTime?
+  externalLink String?
+  isCompleted  Boolean  @default(false)
+}

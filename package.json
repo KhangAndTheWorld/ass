@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "bun": "^1.2.17",
+    "prisma": "^6.11.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.11.1"
+  }
+}
